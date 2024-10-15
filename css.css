@@ -1,0 +1,286 @@
+* {
+  font-family: "Inter", sans-serif;
+}
+
+.webmadewell {
+  background-color: white;
+}
+
+body {
+  margin: 0;
+}
+
+.sample-header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: rgba(147, 51, 234, 255);
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+
+.sample-header-section {
+  position: relative;
+  padding: 5% 0 1%;
+  margin-left: 20%;
+  color: rgb(0, 0, 0);
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 300%;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 250%;
+}
+
+.sample-section-wrap {
+  position: relative;
+  background-color: rgba(28, 28, 28, 255);
+  color: rgba(156, 163, 175, 255);
+}
+
+.sample-section {
+  color: white;
+  padding: 40px;
+}
+
+.header-image {
+  max-width: 60%;
+  height: auto;
+  display: block;
+  border-radius: 20%;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 40% 45%;
+}
+
+.h1 {
+  text-align: center;
+}
+
+p {
+  font-size: 130%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(28, 28, 28, 255);
+  position: fixed;
+  width: 100%;
+  padding: 1%;
+  z-index: 2;
+  border-bottom: 2px solid white;
+  font-weight: 800;
+}
+
+#menu{
+  display: flex;
+}
+
+a {
+  display: inline;
+  font-size: 0.9em;
+  color: #fff;
+  text-decoration: none;
+  margin: 5px 0 0 30px;
+  display: block;
+}
+
+.flex-container {
+  display: flex;
+  text-decoration: none;
+  border-bottom: 2px solid white;
+}
+
+.btn-download {
+  background-color: rgba(28, 28, 28, 255);
+  color: white;
+  padding: 10px 16px;
+  display: flex;
+  margin-right: 10%;
+  margin-top: 30%;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-download:hover {
+  background-color: rgba(80, 80, 80, 255);
+}
+
+.icon {
+  margin-right: 8px;
+  
+}
+
+.item0 {
+  grid-column: 1 / span 3;
+  grid-row: 1;
+}
+
+.caontainer-sobre {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  grid-template-rows: auto 1fr auto;
+  width: 70%;
+  border: 5px solid rgb(255, 255, 255);
+  padding-left: 1%;
+  margin-left: 15%;
+  margin-top: 5%;
+
+}
+
+.paragrafo {
+  grid-column: 1 / span 3;
+  grid-row: 2;
+  padding: 2px;
+}
+
+.grid {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 15% 15% 15%;
+  gap: 0px;
+  height: 30vh;
+  margin-top: 8%;
+}
+
+.grid>div {
+  text-align: center;
+  padding: 1px;
+}
+
+.item0 {
+  grid-column: 1 / span 3;
+  grid-row: 1;
+}
+
+#item-python {
+  background-color: rgb(255, 255, 255);
+  width: 200px;
+  padding: 30px;
+  margin: 4px;
+  color: black;
+  border-radius: 5%;
+}
+
+#item-mysql {
+  background-color: rgb(255, 255, 255);
+  width: 200px;
+  padding: 30px;
+  margin: 4px;
+  color: black;
+  border-radius: 5%;
+}
+
+#item-flask {
+  background-color: rgb(255, 255, 255);
+  width: 200px;
+  padding: 30px;
+  margin: 4px;
+  color: black;
+  border-radius: 5%;
+}
+
+#item-github {
+  background-color: rgb(255, 255, 255);
+  width: 200px;
+  padding: 30px;
+  margin: 4px;
+  color: black;
+  border-radius: 5%;
+}
+
+#item-git {
+  background-color: rgb(255, 255, 255);
+  width: 200px;
+  padding: 30px;
+  margin: 4px;
+  color: black;
+  border-radius: 5%;
+}
+
+#item-bootstrap {
+  background-color: rgb(255, 255, 255);
+  width: 200px;
+  padding: 30px;
+  margin: 4px;
+  color: black;
+  border-radius: 5%;
+}
+
+span {
+  font-weight: 900;
+}
+
+#traço {
+  max-width: 80%;
+  border-top: solid #ffffff 2px;
+  margin: 30px auto;
+  margin-top: 10%;
+}
+
+.Contatos {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 15% 15% 15%;
+  gap: 0px;
+  height: 30vh;
+  margin-top: 8%;
+  
+}
+
+.Contato>div {
+  text-align: center;
+  padding: 1px;
+}
+
+.item-contato {
+  text-align: center;
+  grid-column: 1 / span 3;
+  grid-row: 1;
+}
+
+.contato-linkedin {
+  padding: 10px;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  background-color: rgba(28, 28, 28, 255);
+  padding-top: 20px;
+  border-top: 2px solid white;
+  padding-bottom: 1%;
+}
+
+.Contatos {
+  text-align: center;
+}
+
+.contato-item {
+  display: inline-block;
+  margin: 10px;
+}
+
+.contato-item svg {
+  display: block;
+  margin: 0 auto;
+}
+
+.contato-item p {
+  margin-top: 5px;
+  font-size: 1em;
+  color: white;
+}
