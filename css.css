@@ -382,6 +382,10 @@ p {
   font-size: 130%;
 }
 
+h3 {
+  font-weight: 300;
+}
+
 nav {
   display: flex;
   justify-content: space-around;
@@ -554,7 +558,15 @@ footer {
   color: white;
 }
 
-/* Media Queries for Responsiveness */
+.projeto {
+  text-align: center;
+}
+
+#titulo {
+  font-weight: 600;
+  font-size: 250%;
+}
+
 @media (max-width: 1200px) {
   .container {
     grid-template-columns: 1fr;
